@@ -9,11 +9,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class StudentService {
-	
-	List<Student> l1 = Arrays.asList(
-			new Student(2,"ece","sai"),
-			new Student(3,"eee","mahesh")
-			);
+
 	
 	@Autowired
 	private StudentRepo studentRepo;
